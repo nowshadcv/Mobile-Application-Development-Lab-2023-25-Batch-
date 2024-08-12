@@ -1,0 +1,30 @@
+1.what is andriod ?
+=stack of s/w for mobility
+2.what is andriod view group ?
+=collection of view and other child view
+3.what is the use of content provider in andriod ?
+=to share the data b/w application
+4. __________is designed to block out an area on the screen to display a single item ?
+=frame layout
+5.what is apk in andriod?
+=andriod package kit
+6.what is fragment in andriod ?
+=peace of activity
+7.what is the life cycle of foreground activity in andriod ?
+=onCreate()->onStart()->onResume()
+8.which comapny developed andiod?
+=andriod inc
+9.which company bought andriod?
+=google
+10.web browser available in andriod in based on ?
+=open source webkit
+11.name kernel used in andriod ?
+=linux
+12.andiod is based on ___________language ?
+=java
+13.which one of the following is a mobile operating system ?
+=all of the above(palm o/s , ios, blackberry o/s ,symbian o/s)
+14.andriod doesnt support __________ format
+=AVI
+15.which features are supported by andriod ?
+=all of the above
