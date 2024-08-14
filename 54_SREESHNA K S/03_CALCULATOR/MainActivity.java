@@ -2,20 +2,18 @@ package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    Button button0,button1,button2,button3,button4,button5,
-            button6,button7,button8,button9,buttondot,buttonadd,
-            buttonsub,buttondiv,buttonmul,buttonC,buttoneql;
+    Button button0, button1, button2, button3, button4, button5,
+            button6, button7, button8, button9, buttondot, buttonadd,
+            buttonsub, buttondiv, buttonmul, buttonC, buttoneql;
     EditText result;
-
-    float mvalueone,mvaluetwo;
-    boolean add,sub,mul,div;
+    float mvalueone, mvaluetwo;
+    boolean add, sub, mul, div;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         buttondot = (Button) findViewById(R.id.buttondot);
         buttonadd = (Button) findViewById(R.id.buttonadd);
         buttonsub = (Button) findViewById(R.id.buttonsub);
+        buttonmul = (Button) findViewById(R.id.buttonmul);
         buttondiv = (Button) findViewById(R.id.buttondiv);
         buttoneql = (Button) findViewById(R.id.buttoneql);
         result = (EditText) findViewById(R.id.edt1);
@@ -114,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (result == null) {
-                    result.setText(" ");
+                    result.setText("");
                 } else {
                     mvalueone = Float.parseFloat(result.getText() + "");
                     add = true;
@@ -126,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (result == null) {
-                    result.setText(" ");
+                    result.setText("");
                 } else {
                     mvalueone = Float.parseFloat(result.getText() + "");
                     sub = true;
@@ -138,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (result == null) {
-                    result.setText(" ");
+                    result.setText("");
                 } else {
                     mvalueone = Float.parseFloat(result.getText() + "");
                     mul = true;
@@ -150,9 +149,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (result == null) {
-                    result.setText(" ");
+                    result.setText("");
                 } else {
-                    mvalueone = Float.parseFloat(result.getText() + " ");
+                    mvalueone = Float.parseFloat(result.getText() + "");
                     div = true;
                     result.setText(null);
                 }
@@ -171,31 +170,14 @@ public class MainActivity extends AppCompatActivity {
                     sub = false;
                 }
                 if (mul == true) {
-                    result.setText(mvalueone  * mvaluetwo + "");
+                    result.setText(mvalueone * mvaluetwo + "");
                     mul = false;
                 }
                 if (div == true) {
                     result.setText(mvalueone / mvaluetwo + "");
                     div = false;
                 }
-
             }
         });
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+}
