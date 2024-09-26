@@ -24,3 +24,26 @@ ams=intent
 ans=providers
 10)to send data from one intent to another,we need to use the ____-method.?
 ans=putExtra
+11)how can we use custon colors in application.?
+ans= use layout file and specify color value,
+     use xml file and specify color value(both b and c)
+12)which layout is depracated.?
+ans=absolute layout
+13)how amny ways are there to store data by andriod application.?
+ans= internal storage
+ixternal storage
+SQLlite storage(all of the above)
+14)which of the following is the correct syntax for creating toast.?
+ans=toast.makeText(context,string,duration).show
+15)________is a s/w mwchanish that allows user to coordiante the function of different activities toa achieve task.?
+ans=intent
+16)method thats is not used in andriod life cycle.?
+ans=onOpen()
+17)_______is used to wraop the view according to its actual size.?
+ans=wrap_content
+18)________is a basic building block of user inteface in andriod.?
+ans=view
+19)_______aligns each of the child view in either a vetical or a horizontal line.?
+ans=linear layout
+20)_______is the wayin which one can store and retrieve small amount of primitive data as key/value pairs to a file on the device storage.?
+ans=shared preferences
