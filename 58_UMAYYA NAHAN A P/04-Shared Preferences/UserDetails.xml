@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="keyemail">abc@gmail.com</string>
+    <string name="keyusername">abc</string>
+    <string name="keypassword">123456</string>
+    <string name="keymobile">1234567891</string>
+</map>
