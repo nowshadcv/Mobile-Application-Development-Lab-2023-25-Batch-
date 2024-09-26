@@ -1,0 +1,26 @@
+1)if you want to increase the whitespace between widget you will need to use the _______property.?
+ans= andriod:padding
+2)for creating user intrface in andriod ______is used.?
+ans= XML
+3)which of the following are differnt storage methods available in andriod.?
+ans= 	*shared prefernce	*internal storage
+	*external storage	*SQLdatabases
+4)ADB stands for
+ans= andriod debug bridge.?
+5)WAP stands for.?
+ans=wirless application protocol
+6)which of the following is not component of andriod applicaion.?
+ans= broadcast services
+7)match the following.?
+ans=
+java.oi-data stream
+java.utill-event model
+andrios.opengi-graphics
+andriod widget-ui
+andriod.app-encapsulate
+8)_____are asyncronous messages which allo andriod componet to request functionally from other componets of andriod system.?
+ams=intent
+9)which of the fllowing does not conatined in an intent.?
+ans=providers
+10)to send data from one intent to another,we need to use the ____-method.?
+ans=putExtra
