@@ -33,6 +33,8 @@ public class ImageActivity extends AppCompatActivity {
             case "4":
                 imageview.setImageResource(R.drawable.pomegrantes);
                 break;
+            default:
+                Toast.makeText(this, "invalid input", Toast.LENGTH_SHORT).show();
         }
     }
 }
