@@ -35,6 +35,9 @@ public class ImageActivity extends AppCompatActivity {
             case "4":
                 imageview.setImageResource(R.drawable.strawberry);
                 break;
+            default:
+                Toast.makeText(ImageActivity.this, "Invalid input", Toast.LENGTH_SHORT).show();
+
         }
     }
 
