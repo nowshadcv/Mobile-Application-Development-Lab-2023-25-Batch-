@@ -28,3 +28,35 @@
 =AVI
 15.which features are supported by andriod ?
 =all of the above
+16.
+=true
+17.which of the following not a layout.?
+=retentionallayout
+18.which layout used deveolp theb applction toog;e an image
+=frame layout
+19.how many number of intents are in andriod 
+=two
+20._______________can be used to dsiplay information for a short peroid of time
+=toast
+21._____small rectangular box that can vbe etxt view edit view ior even a button.
+it ocuupiews the area on the screen in a rectangualr area and is resposible for 
+drawing and event handling it is a supercalss of all the graphical user interface componets.?
+=view
+22.which among the following are the eexapmle of widget of an dnriod.?
+=tooglebutoon,date picker,time picker,date
+23.an intent in the andriod os os a s/w mechanosm that allow users to coordiante the function of differnt activites  to acive a task.?
+=true
+24.match the followinf.?
+=dp-density indepentent pixels
+sp-scale indepentent pixels
+px-picture element
+dpi-dot per inch
+hdi-high density incorrect
+25.______-provides information such as activites services broadcast reciever and content provider of an driod application.?
+=andriod manifest file
+26.______known as sub actvity.?
+=fragment
+27.when the user swipr finger from the left edge of the activity then view a ______.?
+=navigatin drawer
+28.application of intent.?
+=sending the user to another app,getting a rsult from an activity,allowing other apps to start your activity
