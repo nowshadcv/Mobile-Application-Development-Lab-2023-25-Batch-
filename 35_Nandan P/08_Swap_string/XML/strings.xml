@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">swap_string</string>
+    <string name="first_string_tv">first_string_tv</string>
+    <string name="swap_btn">swap_btn</string>
+</resources>
